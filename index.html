@@ -1,90 +1,75 @@
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Салон краси в Харкові: професійні процедури, догляд та затишна атмосфера. Записуйтесь вже сьогодні!" />
-  <title>Салон краси “Belle Femme” — Харків</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="script.js"></script>
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <h1>Belle Femme</h1>
-      <ul>
-        <li><a href="#home">Головна</a></li>
-        <li><a href="#about">Про нас</a></li>
-        <li><a href="#price">Прайс</a></li>
-        <li><a href="#contact">Контакти</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <nav class="navbar">
+    <h1>Belle Femme</h1>
+    <ul class="nav-links">
+      <li><a href="#home">Головна</a></li>
+      <li><a href="#about">Про нас</a></li>
+      <li><a href="#services">Послуги</a></li>
+      <li><a href="#contact">Контакти</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <section id="home" class="carousel">
-    <div class="slides">
-      <img src="img/salon1.jpg" alt="Інтер’єр салону краси" />
-      <img src="img/salon2.jpg" alt="Зал очікування салону" />
-      <img src="img/salon3.jpg" alt="Косметологічний кабінет" />
-      <img src="img/salon4.jpg" alt="Манікюрна зона" />
+<section class="carousel">
+  <h2>Головна зала</h2>
+<img src="https://www.perspectiva-design.com/wp-content/uploads/2020/01/16.jpg" alt="Головна зала" width="400">
+
+<h2>Зона очікування</h2>
+<img src="https://blog.integrica.com.ua/wp-content/uploads/2022/07/IMG_4786-1.jpg" alt="Зона очікування" width="400">
+
+<h2>Косметологічна зона</h2>
+<img src="https://cleverbox-crm.com/uploads/news/smt_1581076240.jpg" alt="Косметологічна зона" width="400">
+
+
+
+<section id="home" class="section">
+  <h2>Ласкаво просимо до Belle Femme</h2>
+  <p>Весняна знижка 20% на всі процедури до 30 квітня! Запишіться вже сьогодні!</p>
+</section>
+
+<section id="about" class="section">
+  <h2>Про нас</h2>
+  <p>Салон краси "Belle Femme" — місце, де розквітає ваша краса. Працюємо з 2015 року, пропонуємо послуги європейського рівня в центрі Харкова. Наші майстри щодня створюють образи, які надихають. Простір оформлений у ніжно-рожевих тонах для вашого максимального комфорту. Піклуємося не тільки про зовнішність, але й про настрій кожного клієнта.</p>
+</section>
+
+<section id="services" class="section">
+  <h2>Наші послуги</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>Стрижки</h3>
+      <p>від 350 грн</p>
+      <p>Індивідуальний підхід до кожної форми обличчя. Створюємо стиль, який підкреслює вашу красу.</p>
     </div>
-    <div class="carousel-nav">
-      <span class="dot" onclick="currentSlide(0)"></span>
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
+    <div class="card">
+      <h3>Фарбування</h3>
+      <p>від 800 грн</p>
+      <p>Блонд, шатуш, балаяж — працюємо з преміум-фарбами. Здорове волосся і яскравий результат.</p>
     </div>
-  </section>
-
-  <section id="about">
-    <h2>Про нас</h2>
-    <p>
-      Салон краси “Belle Femme” відкрився у самому серці Харкова у 2018 році. Ми поєднали
-      європейські стандарти догляду та домашній затишок. Наша команда — це професіонали з великим досвідом та щирим бажанням підкреслити вашу природну красу.
-    </p>
-  </section>
-
-  <section id="price">
-    <h2>Прайс</h2>
-    <div class="price-list">
-      <div class="card">
-        <h3>Манікюр</h3>
-        <p>Класичний — 300 грн</p>
-        <p>Гель-лак — 450 грн</p>
-      </div>
-      <div class="card">
-        <h3>Косметологія</h3>
-        <p>Чистка обличчя — 700 грн</p>
-        <p>Масаж обличчя — 350 грн</p>
-      </div>
-      <div class="card">
-        <h3>Перукарські послуги</h3>
-        <p>Стрижка жіноча — 400 грн</p>
-        <p>Фарбування — від 800 грн</p>
-      </div>
+    <div class="card">
+      <h3>Манікюр</h3>
+      <p>від 400 грн</p>
+      <p>Класичний, апаратний, з дизайном. Всі інструменти стерилізовані. Безпека і краса.</p>
     </div>
-  </section>
+    <div class="card">
+      <h3>SPA-догляд</h3>
+      <p>від 700 грн</p>
+      <p>Професійні маски, пілінги, зволоження. Релакс і глибоке відновлення шкіри.</p>
+    </div>
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>Контакти</h2>
-    <p><strong>Адреса:</strong> м. Харків, вул. Свободи, 23</p>
-    <p><strong>Телефон:</strong> +38 (050) 123-45-67</p>
-    <form>
-      <label for="name">Ім’я:</label>
-      <input type="text" id="name" placeholder="Ваше ім’я" required />
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" placeholder="Ваша електронна пошта" required />
-      
-      <label for="message">Повідомлення:</label>
-      <textarea id="message" placeholder="Ваше повідомлення..." required></textarea>
-      
-      <button type="submit">Надіслати</button>
-    </form>
-  </section>
+<section id="contact" class="section">
+  <h2>Контакти</h2>
+  <p>вул. Сумська, 45, м. Харків</p>
+  <p>Телефон: +380 99 123 4567</p>
+  <form id="contact-form">
+    <input type="text" placeholder="Ваше ім’я" required>
+    <input type="tel" placeholder="Ваш телефон" required>
+    <textarea placeholder="Ваш коментар" required></textarea>
+    <button type="submit">Надіслати</button>
+  </form>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Салон краси “Belle Femme”, Харків</p>
-  </footer>
-</body>
-</html>
+<footer>
+  <p>&copy; 2025 Belle Femme. Всі права захищено.</p>
+</footer>
